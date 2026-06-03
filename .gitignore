@@ -1,0 +1,16 @@
+# Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Massive Datasets (Never push CSVs to GitHub)
+*.csv
+*.zip
+.cache/
+
+# Model Artifacts (Optional: keep local or track via LFS)
+# model_artifacts/
