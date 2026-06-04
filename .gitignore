@@ -1,16 +1,24 @@
-# Virtual Environment
-.venv/
-venv/
+# Secrets
+.env
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+.venv/
+venv/
 
-# Jupyter Notebook checkpoints
+# Model files
+*.pkl
+model_artifacts/
+
+# Data files — NEVER push these
+*.csv
+data/
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Massive Datasets (Never push CSVs to GitHub)
-*.csv
-*.zip
-.cache/
-
-# Model Artifacts (Optional: keep local or track via LFS)
-# model_artifacts/
+# OS
+.DS_Store
+Thumbs.db
