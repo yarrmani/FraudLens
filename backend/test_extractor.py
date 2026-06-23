@@ -51,4 +51,4 @@ extractor.close()
 
 print("\n" + "=" * 50)
 print("All tests passed. Feature extractor is working.")
-print("=" * 50)
+print("=" * 50)      
